@@ -25,8 +25,8 @@ public class Test {
     @Before
     public void init(){
         config.put("host", "identify-eu-west-1.acrcloud.com");
-        config.put("access_key", "50bb27b6cd8b2088ba492e36c6ce2e95");
-        config.put("access_secret", "SPqoNSExNoPsH9CIqSHiEuGepYKEuK7YeQDpgVN2");
+        config.put("access_key", "");
+        config.put("access_secret", "");
         config.put("rec_type", ACRCloudRecognizer.RecognizerType.AUDIO); // AUDIO, HUMMING, BOTH
         config.put("debug", false);
         config.put("timeout", 10); // seconds

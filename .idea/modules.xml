@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/x86-64.iml" filepath="$PROJECT_DIR$/.idea/x86-64.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arc_cloud_sdk_mac_x86-64.iml" filepath="$PROJECT_DIR$/arc_cloud_sdk_mac_x86-64.iml" />
     </modules>
   </component>
 </project>

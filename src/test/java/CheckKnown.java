@@ -67,13 +67,13 @@ public class CheckKnown {
 
     private void apiResponse(String response, List<String> filesToDelete) {
         System.out.println(response);
-        if (response.contains("3003")) {
+        if (response.contains(":3003")) {
             System.out.println(response);
             System.out.println("FATAL ERROR, REMOVING ALREADY SPOTTED FILES");
             removeFiles(true, filesToDelete);
             throw new RuntimeException("API CALL LIMIT EXCEEDED");
         }
-        if (response.contains("2005")) {
+        if (response.contains(":2005")) {
             System.out.println(response);
             System.out.println("Can not decode audio data");
             removeFiles(true, filesToDelete);

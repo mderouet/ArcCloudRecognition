@@ -19,8 +19,8 @@ public class Utils {
         if(config == null) {
             config = new HashMap<String, Object>();
             config.put("host", "identify-eu-west-1.acrcloud.com");
-            config.put("access_key", "8af3ee689dd830f822a831c9b4201c8c");
-            config.put("access_secret", "uG5guWmINGaWb7DFOHKveQlfPDAgtc3iY46oPWYk");
+            config.put("access_key", "b1b35d68065bea50005e827eba9226d8");
+            config.put("access_secret", "0GgeouvFRYffDg2M4RPQDM3JUb5b6z37CsBU82OU");
             config.put("rec_type", ACRCloudRecognizer.RecognizerType.AUDIO); // AUDIO, HUMMING, BOTH
             config.put("debug", false);
             config.put("timeout", 10); // seconds
@@ -41,3 +41,7 @@ public class Utils {
 // colonieu.clement@mail.com
 //key 8af3ee689dd830f822a831c9b4201c8c
 //secret uG5guWmINGaWb7DFOHKveQlfPDAgtc3iY46oPWYk
+
+//fogiji4453@eliteseo.net
+//key 7a58d9dd74732c9d847594540eb80033
+//secret n3LLdWcUhYjfB6lXco0lnPehp7oxmyxyyQsGULAY

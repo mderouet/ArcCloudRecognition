@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="x86-64" />
+        <module name="arc_cloud_sdk_mac_x86-64" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="x86-64" target="1.6" />
+      <module name="arc_cloud_sdk_mac_x86-64" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>
